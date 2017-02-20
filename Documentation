@@ -1,7 +1,0 @@
-MySQL data table will be used to store the coordinates of the inductive charging roads. 
-
-The app will determine the user's locaiton using Google Maps API then pull the coordinates of all inductive charging roads within a given radius of all roads between the initial location and the destination. 
-
-Provide user with the choice of fastest route, or route that will charge the car most.
-
-Once the destination is reached, ask simple yes/no question regarding whether or not they liked the route they were taken. Response will be submit to another MySQL data table with information on the route they took and their survey response. 
