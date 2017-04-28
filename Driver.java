@@ -1,3 +1,14 @@
+/*
+ * This class holds the framework to, when the route is finished, 
+ *   receive the user's feedback and translate it from an integer to a string of "yes" or "no",
+ *   and appends the response to a text file.
+ *   
+ *   Once permissions issues with connecting to the MySQL database are solved,
+ *   this functionality can be scrapped. 
+ * 
+ */
+
+
 package Survey;
 
 import java.io.BufferedWriter;
@@ -17,7 +28,6 @@ public class Driver {
 		Feedback f = new Feedback();		
 		Integer answer = f.getFeedback();
 		
-		// File feedbackFile = new File("feedback.txt");
 		String fileName = "feedback.txt";
 		File feedbackFile = new File("C:\\Users\\Andrew\\Desktop\\" + fileName);
 		FileWriter fileWriter = new FileWriter(feedbackFile, true);

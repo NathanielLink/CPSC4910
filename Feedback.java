@@ -1,8 +1,33 @@
+/*
+ * 
+ * This class is the framework for storing the user's response into the mySQL database.
+ * 
+ * The JOptionPane is used to provide a simple yes/no interface.
+ *   When the user selects 'yes', it returns a 0.
+ *   When the user selects 'no', it returns a 1.
+ *   When the user selects 'cancel' or exits, it returns a 2 and a -1, respectively.
+ * 
+ * 
+ * The commented-out code near the bottom opens a connection to the database,
+ *   then inserts the user's Response as the JOptionPane integer.
+ *   
+ *   Permission is denied even when accessing through Clemson's VPN,
+ *   so the the current workaround is to write append the user's response to a text file.
+ *   This is handled through the Driver.java file.
+ * 
+ * 
+ * Database url: http://myadmin.clemson.edu/phpmyadmin
+ *   username: wrlss_chrgng_ln
+ *   password: (DUX0hMxd,ak
+ * 
+ */
+
+
 package Survey;
 
-import java.sql.Connection;
-import java.sql.DriverManager;
-import java.sql.*;
+// import java.sql.Connection;
+// import java.sql.DriverManager;
+// import java.sql.*;
 import javax.swing.JOptionPane;
 
 
@@ -18,7 +43,6 @@ public class Feedback {
 	public Integer getFeedback() {	
 		userResponse = JOptionPane.showConfirmDialog(null, "Did you enjoy your route?");
 		
-		// wrap around insertion statements below when ready
 		if (userResponse == 0 || userResponse == 1) {
 			JOptionPane.showMessageDialog(null, "Thank you for your feedback!");
 		}
@@ -98,8 +122,12 @@ public class Feedback {
 			e.printStackTrace();
 		}
 		
+		
 		//return userResponse;				
 	}
+	
+
 		
 }
+
 */
