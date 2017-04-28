@@ -6,8 +6,12 @@
           <option name="url" value="https://github.com/jd-alexander/Google-Directions-Android" />
           <option name="userName" value="" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="https://github.com/NathanielLink/CPSC4910/tree/master/IAmHere/IAmHere" />
+          <option name="userName" value="" />
+        </UrlAndUserName>
       </list>
     </option>
-    <option name="cloneParentDir" value="C:\Users\bobsquad123456\Desktop\googlemaps\google-maps-services-java-master" />
+    <option name="cloneParentDir" value="C:\Users\bobsquad123456\Desktop\googlemaps\" />
   </component>
 </application>
