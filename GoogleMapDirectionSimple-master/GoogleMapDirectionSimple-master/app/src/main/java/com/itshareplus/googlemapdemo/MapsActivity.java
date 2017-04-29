@@ -1,5 +1,19 @@
 package com.itshareplus.googlemapdemo;
 
+/*
+ * 
+ * This class is the framework for making the second map
+ * 
+ * Start the user at a location hard coded into the code. 
+ * 
+ * There will be two address search bars, typing into those two will have google
+ * use its data base to find those locations, then make a map between the
+ * points. The distance between the two points, and the amount of travel time
+ * will be listed below the address bars
+ *   
+ * 
+ */
+
 import android.Manifest;
 import android.app.ProgressDialog;
 import android.content.pm.PackageManager;

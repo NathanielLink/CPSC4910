@@ -1,5 +1,20 @@
 package com.example.dylan.iamhere;
 
+/*
+ * 
+ * This class is the framework for making the first map
+ * 
+ * On launch, the app will ask for the access to users location,
+ * The app will then take that information and center the camera on the
+ * users posistion, having a button at the top right to recenter the map on
+ * user. 
+ * 
+ * The map will take press inputs and mark the first two presses on the map.
+ * Once the places are marked, googles database will be called, and a route
+ * will be made between the two points.
+ *   
+ * 
+ */
 
 import android.Manifest;
 import android.content.pm.PackageManager;
